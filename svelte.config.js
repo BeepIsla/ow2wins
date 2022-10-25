@@ -7,7 +7,11 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess(),
 	kit: {
-		adapter: adapter(),
+		adapter: adapter({
+			pages: "build",
+			assets: "build",
+			fallback: null
+		}),
 		files: {
 			lib: "src/lib"
 		}
