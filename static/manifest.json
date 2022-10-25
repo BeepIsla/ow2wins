@@ -3,21 +3,21 @@
 	"name": "Overwatch Win Counter",
 	"icons": [
 		{
-			"src": "./ow2wins/icon-192.png",
+			"src": "./icon-192.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "./ow2wins/icon-512.png",
+			"src": "./icon-512.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
 	],
-	"id": "./ow2wins/?source=pwa",
+	"id": "./?source=pwa",
 	"start_url": "/?source=pwa",
 	"background_color": "#21153c",
 	"display": "standalone",
-	"scope": "./ow2wins/",
+	"scope": "./",
 	"theme_color": "#21153c",
 	"shortcuts": [],
 	"description": "Counter your Overwatch wins, simplifies the 'Role Mastery' challenge."
