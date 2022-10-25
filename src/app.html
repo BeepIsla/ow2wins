@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="manifest" href="/manifest.json" />
+		<meta name="viewport" content="width=device-width" />
+		%sveltekit.head%
+
+		<style>
+			body {
+				margin: 0;
+				background-color: #21153c;
+			}
+
+			@font-face {
+				font-family: "Config Bold";
+				src: url("fonts/ConfigCondensedBold.otf") format("opentype");
+				font-weight: bold;
+				font-stretch: 100%;
+				font-display: swap;
+				line-height: 66px;
+			}
+
+			@font-face {
+				font-family: "Config Medium";
+				src: url("fonts/ConfigCondensedMedium.otf") format("opentype");
+				font-weight: normal;
+				font-stretch: 100%;
+				font-display: swap;
+				line-height: 66px;
+			}
+		</style>
+
+		<title>Overwatch Win Counter</title>
+		<meta
+			name="description"
+			content="Counter your Overwatch wins, simplifies the 'Role Mastery' challenge."
+		/>
+		<meta content="Overwathc Win Counter" property="og:title" />
+		<meta
+			content="Counter your Overwatch wins, simplifies the 'Role Mastery' challenge."
+			property="og:description"
+		/>
+		<meta content="%sveltekit.assets%/favicon.png" property="og:image" />
+		<meta content="#21153c" data-react-helmet="true" name="theme-color" />
+		<meta name="twitter:card" content="summary_large_image" />
+	</head>
+	<body>
+		<div>%sveltekit.body%</div>
+	</body>
+</html>
